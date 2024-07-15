@@ -33,6 +33,10 @@ body::before {
     z-index: 0;
 }
 
+body.change-background {
+    background-image: url("../img/landing-back.gif");
+}
+
 .container {
     text-align: center;
     position: relative;
@@ -65,4 +69,10 @@ body::before {
     border: none;
     cursor: pointer;
     font-size: 50px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    transform: scale(1.1);
+    background-color: #333;
 }
