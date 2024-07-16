@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Serif', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: url('../img/landing-back.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+    z-index: -1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.name h1 {
+    margin: 0;
+    font-size: 150px;
+}
+
+.bi {
+    color: #1DA1F2;
+    font-size: 40px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-media i {
+    width: 50px;
+    height: 50px;
+    color: azure;
+}
+
+.lorem {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 10px 0;
+}
+
+.button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.button:hover + hr {
+    border-top-color: #1DA1F2;
+}
