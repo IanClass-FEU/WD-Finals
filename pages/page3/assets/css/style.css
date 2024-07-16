@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transition: background-image 0.5s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+h1 .container {
+    font-size: 60px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-holder {
+    width: 75%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 2rem;
+    user-select: none;
+    padding: 10px;
+}
+
+.text {
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+button {
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover + .image-holder img,
+button:hover + .text,
+button:hover {
+    transform: scale(1.1);
+}
+
+.nav-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.nav-icon.open {
+    transform: rotate(90deg);
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    animation: slideDown 0.3s ease;
+    font-size: 40px;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}

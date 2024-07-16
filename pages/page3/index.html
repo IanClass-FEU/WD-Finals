@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider with Navigation Menu</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project Showcase</h1>
+        <div class="nav-icon" onclick="toggleMenu()">☰</div>
+        <div class="slider">
+            <div class="arrow left" onclick="changeImage(-1)">&#9664;</div>
+            <div class="image-holder">
+                <img id="slider-image" src="./assets/img/1.png" alt="Image">
+            </div>
+            <div class="arrow right" onclick="changeImage(1)">&#9654;</div>
+        </div>
+        <div class="text">
+            <h1 id="slider-text">Resume</h1>
+            <button id="slider-button">Visit</button>
+        </div>
+    </div>
+    <div class="dropdown" id="dropdown-menu">
+        <a href="../page1/index.html">Home</a>
+        <a href="#link2">Link 2</a>
+        <a href="#link3">Link 3</a>
+    </div>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
