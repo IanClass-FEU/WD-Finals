@@ -93,9 +93,9 @@ body::before {
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    display: block; /* Ensures the button takes up the full width by default */
-    text-align: center; /* Centers text horizontally within the button */
-    text-decoration: none; /* Remove underline from link behavior */
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 .custom-button:hover {
