@@ -1,4 +1,4 @@
-# WD-Seatwork_4_Tamayo
+# Personal Website v.2: A Showcase of Design and Functionality
 
 <a name="readme-top">
 
@@ -57,38 +57,46 @@
 
 ## Overview
 
-This project entails the creation of a showcase consisting of two unique feature pages designed exclusively with HTML and CSS. The showcase aims to show how HTML and CSS can be leveraged to create visually appealing and user-friendly feature pages for various types of websites. By demonstrating different layouts, styling techniques, and interactive elements achievable without relying on JavaScript or external libraries, the project showcases the power of HTML and CSS in driving creativity and functionality in web design. This initiative not only showcases practical implementations but also serves as a practice for aspiring web developers and designers looking to enhance their skills.
+Personal Website v.2: A Showcase of Design and Functionality
+
+This project is a personal website designed to demonstrate my proficiency in web development and design. It features a collection of five distinct pages, each showcasing unique layouts and interactive elements created using HTML, CSS, and JavaScript. The website includes sections such as a resume detailing my skills and experience, a project showcase with links to repositories and descriptions, and an overview page explaining its purpose and content. Deployed using GitHub Actions, this project emphasizes clean code, responsive design, and a user-friendly experience.
+
+
 
 ### Key Components
 - Landing Page
-  - Header
   - Live background
   - Hover Effect
-  - Socials Buttons
-  - Side Navigation
+  - Java Script
 
-- Feature Section 1 (Starfield)
+- Gallery Portfolio
   - Header
-  - Side Navigation Anchor
-  - Live Background
-  - Live Feature Videos
-  - Hover Animation
-
-- Feature Section 2 (No Man's Sky)
-  - Header
+  - Click Event
   - Grid Gallery
-  - Hover Animation
-  - Icons
 
-- Footer Animation
+
+- WD project showcase
+  - Side Navigation Bart
+  - Carousel Gallery
+  - Hover Animation
+  - Live Background
+  - Script
+  - Fade effect
+
+- Resume
+  - Icons
+  - Background Image
+
+- Contact Us
   - Hover Effect
-  - Live Feature Videos
+  - Live Background Video
   - Icons
 
 
 ### Technology
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -107,17 +115,18 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |    └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ video
-|        └─ fileWith.mp4
+|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   └─ js
+|       └─ script.js
 └─ pages
 |  └─ pageName
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |     └─ fileWith.jpeg/.jpg/.webp/.png
-|     |
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -131,7 +140,7 @@ WD-ProjectName
 | Layout | Used as a guide for layout and basic trouble shooting problems | https://www.w3schools.com/ |
 | Live Background | Used to find background for landing page| https://www.wallpaperengine.io/ |
 | .webp resources | Used to all .webp files used for live images | https://giphy.com/ |
-| Gradient Background | Used to create gradient colored background faster | https://cssgradient.io/ |
 | Feature Design | Used to find inspiration and ideas for feature section design | https://saaslandingpage.com/features/ |
 | Troubleshooting | Used to find for possible solution or more efficient ways of coding | https://stackoverflow.com/ |
+| Design Source | Used to find for possible designs to recreate | https://www.awwwards.com/ |
 
